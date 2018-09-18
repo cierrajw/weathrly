@@ -1,0 +1,23 @@
+.ten-day {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  max-width: 70rem;
+  height: 11rem;
+  margin: auto;
+  background:rgba(0,0,0,0.2);
+}
+
+@media (max-width: 1150px) {
+  .ten-day {
+    height: 28rem;
+    max-width: 700px;
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+@media (max-width: 750px) {
+  .ten-day {
+    grid-template-columns: repeat(4, 1fr);
+    height: 35rem;
+  }
+}

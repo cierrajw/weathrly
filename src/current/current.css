@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,800');
+
+.current-weather-data {
+	display: flex;
+	justify-content: space-around;
+	width: 83%;
+  max-width: 30rem;
+  height: 20rem;
+	margin: auto;
+  font-family: 'Open Sans', sans-serif;
+  color: #C9C9C9;
+  background:rgba(0,0,0,0.2);
+}
+
+.current-location {
+  font-size: 1.5rem;
+  margin: auto;
+  padding-top: 1rem;
+  text-align: center;
+  color: #C9C9C9;
+  background:rgba(0,0,0,0.2);
+  max-width: 30rem;
+}
+
+.day-label {
+  font-weight: 300;
+}
+
+article {
+  display: grid;
+  align-items: center;
+}
+
+.weather-img-aside {
+  padding-top: 2rem;
+}
+
+.weather-img {
+  width: 13rem;
+}
+
+.temperature {
+  font-size: 6rem;
+  margin: 0;
+  color: #FFF;
+  font-weight: 300;
+}
+
+.current-weather-right-containter {
+  display: grid;
+  align-items: center;
+}
+
+.wind,
+.humidity,
+.highlow {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.weather-label,
+.weather-description {
+  color: #FFF;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.weather-description {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 300;
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 740px) {
+
+  .current {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+
+  .weather-img {
+    width: 11rem;
+  }
+
+  article {
+    margin: 0;
+  }
+
+  .temperature,
+  .wind,
+  .humidity,
+  .highlow,
+  .weather-label {
+    text-align: center;
+    margin-left: 0
+  }
+
+  .wind,
+  .humidity,
+  .highlow,
+  .weather-label {
+    font-size: 1rem;
+  }
+
+  .temperature {
+    font-size: 5rem;
+  }
+
+  .weather-description {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 475px) {
+  .weather-img {
+    width: 200px;
+  }
+
+  .temperature {
+    font-size: 7rem;
+  }
+
+  .weather-label,
+  .wind,
+  .humidity,
+  .highlow {
+    font-size: 1.4rem;
+  }
+
+  .wind,
+  .humidity,
+  .highlow {
+    margin: 1rem 0; 
+  }
+
+  .weather-description {
+    font-size: 1.6rem;
+  }
+}

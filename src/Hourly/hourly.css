@@ -1,0 +1,10 @@
+.hourly-weather {
+  margin: 1rem 1rem 0 1rem;
+  color: #FFF;
+  text-align: center;
+  height: 204px;
+}
+
+.forecast-img {
+  width: 60px;
+}

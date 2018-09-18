@@ -1,0 +1,47 @@
+
+
+.location-container{
+  align-items: start;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  column-gap: 22em;
+}
+
+.welcome-input{
+  grid-row: 1;
+  border-style: none;
+  background:rgba(0,0,0,0.2);
+  font-size: 3rem;
+  max-width: 1000px;
+  min-width: 40rem;
+  height: 60px;
+  color: #fff;
+}
+
+.welcome-input::placeholder{
+  color: grey;
+  padding-left: 8px;
+}
+
+.welcome-magnifier{
+  grid-row: 2;
+  width: 43px;
+  padding-top: .5rem;
+}
+
+.welcome-magnifier-div{
+  padding: 0 8px;
+  margin: 0 auto;
+  width: 50px;
+  display: grid;
+  align-items: center;
+  margin-left: 1rem;
+  background:rgba(0,0,0,0.2);
+  height: 60px;
+  display: inline-block;
+}
+
+.welcome-magnifier-div:hover {
+  cursor: pointer;
+}
